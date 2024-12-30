@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+<div class="card" style="width: 18rem; display: inline-block;">
+  <img src=<%= img %> class="card-img-top" alt="Enter ID">
+    <form action="/post" method="post" >
+      <label for="idInput">ID</label>
+      <input type="number" name="ID" id="idInput" >
+    </form>
+    <h5>Title:<%= anime %></h5>
+    <h6>Name:<%= name %></h6>
+</div>
+<p style="color: white;
+text-shadow: 1.5px 1px 0px rgb(255, 255, 255);
+"><%= about %></p>
+
+<%- include("partials/footer.ejs") %>
