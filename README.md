@@ -1,2 +1,2 @@
 # AnimeId
-gives information of the anime character by the ID you provide
+Provides detailed information about an anime character based on the given ID.
